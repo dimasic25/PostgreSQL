@@ -26,7 +26,6 @@ try {
         $stmt1->bindParam(':date', $date);
         $stmt1->execute();
         echo "Данные успешно обновлены";
-        $flag = false;
     }
     // Здесь мы получаем запись по id
     if (isset($_GET['id'])) {
